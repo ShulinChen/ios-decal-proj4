@@ -33,11 +33,12 @@ swiping from the right on the main restaurant screen will show all the reviews o
 ## Implementation:
 
 ### Model
-   - Model will contain many JSON objects retrieved from the Yelp API. The JSON object simply represent all the info about a restaurant. User actions in the view layer are communicated through a View Controller and results in the creation or updating of the model object. Also, when a model object changes, it notifies a controller object, which will updates the appropriate view object. Here we will try to integrate the SwiftJSON library to parse JSON.
+  
+   - (restaurants.swift)Model will contain many JSON objects retrieved from the Yelp API. The JSON object simply represent all the info about a restaurant. User actions in the view layer are communicated through a View Controller and results in the creation or updating of the model object. Also, when a model object changes, it notifies a controller object, which will updates the appropriate view object. Here we will try to integrate the SwiftJSON library to parse JSON.
 
 ### View
-   - Basically a view object will properly display the restaurants from the model objects and enable the editing of those data. Here we will use  a UICollectionView to properly represents each resulting restarant in a UICollectionViewcell. 
+   - (restaurantsView)Basically a view object will properly display the restaurants from the model objects and enable the editing of those data. Here we will use  a UICollectionView to properly represents each resulting restarant in a UICollectionViewcell. 
 
 ### Controller
--  Controller can be thought of as the bridge between view and model. So whenever we send a API query our model will get updated, the controller will then be notified and tell the view object to display the contents of the updated model objects; on the other way, when a user makes some input in the view, say they search the restaurants by different transportation, the controller will be notified and tell model to update the data to match the user request.
+-  (restaurantsController)Controller can be thought of as the bridge between view and model. So whenever we send a API query our model will get updated, the controller will then be notified and tell the view object to display the contents of the updated model objects; on the other way, when a user makes some input in the view, say they search the restaurants by different transportation, the controller will be notified and tell model to update the data to match the user request.
     
