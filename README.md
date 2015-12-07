@@ -4,6 +4,10 @@
 - Eranda Bregasi, 
 - Shulin Chen
 
+### Walkthrough
+
+![Walkthrough](foodie.gif)
+
 ## Purpose: 
 Foodie allows Cal students to find food/free food in a fast and easy fashion and share their favorite restaurants and dishes with others.
 
