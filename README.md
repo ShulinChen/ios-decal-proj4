@@ -49,6 +49,6 @@ open Foodie.xcworkspace
 ```
     
 The following CocoaPods were used:
-'AFNetworking', '~> 2.4'
+'AFNetworking',
 'BDBOAuth1Manager'
 'Parse'
