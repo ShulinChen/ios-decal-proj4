@@ -45,7 +45,7 @@ Run the following in command-line:
 
 ```
 pod install
-open foodie.xcworkspace
+open Foodie.xcworkspace
 ```
     
 The following CocoaPods were used:
