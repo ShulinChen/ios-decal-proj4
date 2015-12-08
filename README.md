@@ -52,3 +52,6 @@ The following CocoaPods were used:
 'AFNetworking',
 'BDBOAuth1Manager'
 'Parse'
+
+###Constraints
+At this point the following restaurants' menu info are available: North Side Cafe, Gypsy, Pizzahhh!, and Smoke Poutinerie
