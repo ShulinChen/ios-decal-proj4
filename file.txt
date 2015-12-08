@@ -1,0 +1,6 @@
+EE 16A - 4 units
+CS 160 - 4 units
+CS 170 - 4 units
+CS 188 - 4 units
+CS 161 - 4 units
+CS 169 - 4 units
